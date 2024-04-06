@@ -136,18 +136,18 @@ video {
   min-width: 100%; 
   min-height: 100%;
 }
+/*#007bff*/
 #video:after {
   content: '';
   opacity: 0.75;
   background: #4096ee; /* Old browsers */
   background: -moz-linear-gradient(top, #4096ee 0%, #39ced6 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(top, #4096ee 0%,#39ced6 100%); /* Chrome10-25,Safari5.1-6 */
-<<<<<<< HEAD
+
   background: linear-gradient(to bottom, #389bf88c 0%,#005ba5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   
-=======
-  background: linear-gradient(to bottom, #4096ee 0%,#39ced6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
->>>>>>> 94d8bd4fcf90d56914bd7bc2827bbc87af33f6f6
+  /*background: linear-gradient(to bottom, #4096ee 0%,#39ced6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096ee', endColorstr='#39ced6',GradientType=0 ); /* IE6-9 */
   position:fixed;
   left:0;
@@ -398,11 +398,8 @@ video {
 .social-icons {
   margin:0;
   padding:0;
-<<<<<<< HEAD
+  
   list-style: none;
-=======
-  list-style:none;
->>>>>>> 94d8bd4fcf90d56914bd7bc2827bbc87af33f6f6
 }
 .social-icons li {
   display: block;
@@ -460,10 +457,8 @@ video {
   margin:0 auto 30px;
   color: #fff;
 
-<<<<<<< HEAD
-=======
   font-size: 18px;
->>>>>>> 94d8bd4fcf90d56914bd7bc2827bbc87af33f6f6
+
   margin-bottom: 20px;
 }
 .welcome-title {
@@ -708,9 +703,9 @@ video {
   color: #1e1e1e;
   margin-bottom: 20px;
 }
-.thumb img {
-  /*height: 200px;*/
-}
+/*.thumb img {
+  height: 200px;
+}*/
 /*==============================================
 08. CONTACT BLOCK CSS
 ================================================*/
